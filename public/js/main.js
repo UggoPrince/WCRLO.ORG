@@ -185,7 +185,7 @@ const openNav = (nav) => {
         nav.style.width = 0+'px';
         navIsOpen = false;
     } else {
-        nav.style.width = 250+'px';
+        nav.style.width = 300+'px';
         navIsOpen = true;
     }
 };

@@ -55,6 +55,10 @@ h1, h2, h3, h4, h5,
     .toggle-button {
         display: none;
     }
+
+    .hero-wrap {
+        min-height: 700px;
+    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -90,12 +94,17 @@ h1, h2, h3, h4, h5,
     .site-navigation ul li a {
         text-align: left;
         width: 100%;
+        font-size: 20px;
         box-sizing: border-box;
     }
 
     .toggle-button {
         display: inline-block;
         color: #353535;
+    }
+
+    .hero-wrap {
+        min-height: 400px;
     }
 }
 
@@ -120,7 +129,6 @@ h1, h2, h3, h4, h5,
 .hero-wrap {
   width: 100%;
   height: calc(100vh - 117px);
-  min-height: 700px;
   position: relative;
 }
 
