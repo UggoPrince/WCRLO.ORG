@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5,
     }
 
     .hero-wrap {
-        min-height: 700px;
+        min-height: 80vh
     }
 }
 
@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5,
     .site-navigation ul li a {
         text-align: left;
         width: 100%;
-        font-size: 20px;
+        font-size: 25px;
         box-sizing: border-box;
     }
 
@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5,
     }
 
     .hero-wrap {
-        min-height: 400px;
+        height: 60vh;
     }
 }
 
@@ -128,7 +128,6 @@ h1, h2, h3, h4, h5,
 
 .hero-wrap {
   width: 100%;
-  height: calc(100vh - 117px);
   position: relative;
 }
 
@@ -155,7 +154,7 @@ h1, h2, h3, h4, h5,
 
 .slider-text {
     color: #fff;
-    height: 700px;
+    height: 450px;
 }
 .slider-text h1 {
       font-size: 60px;
