@@ -1,6 +1,6 @@
 <!-- Header section  -->
 <header class="header-section">
-  <nav class="navbar navbar-expand-md text-center">
+  <nav class="navbar navbar-expand-lg text-center">
     <div class="container">
       <a class="navbar-brand" href="/">WCRLO</a>
 

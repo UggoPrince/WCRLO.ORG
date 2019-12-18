@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5,
     cursor: pointer;
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 993px) {
     .site-navigation {
         width: auto !important;
         background: transparent;
@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5,
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
 
     .site-navigation {
         height: 100%;
@@ -119,7 +119,8 @@ h1, h2, h3, h4, h5,
 
 .hero-wrap {
   width: 100%;
-  min-height: calc(100vh - 117px);
+  height: calc(100vh - 117px);
+  min-height: 700px;
   position: relative;
 }
 
