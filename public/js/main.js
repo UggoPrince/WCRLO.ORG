@@ -182,10 +182,10 @@ $(window).on('load', function() {
 let navIsOpen = false;
 const openNav = (nav) => {
     if (navIsOpen) {
-        nav.style.width = 0+'px';
+        nav.style.width = 0+'%';
         navIsOpen = false;
     } else {
-        nav.style.width = 300+'px';
+        nav.style.width = 65+'%';
         navIsOpen = true;
     }
 };
