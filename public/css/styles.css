@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5,
     }
 
     .hero-wrap {
-        min-height: 80vh
+        min-height: 90vh
     }
 }
 
@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5,
     .site-navigation {
         height: 100%;
         width: 0;
-        max-width: 300px;
+        max-width: 600px;
         position: fixed;
         z-index: 10;
         top: 0;
@@ -121,6 +121,7 @@ h1, h2, h3, h4, h5,
 .header-section {
   position: fixed;
   width: 100%;
+  padding: 7px 0px;
   background-color: rgb(255, 255, 255, 0.7);
   z-index: 2;
   top: 0;
@@ -227,10 +228,52 @@ h1, h2, h3, h4, h5,
           animation-duration: 2s;
 }
 
+.wcrlo-animate2 {
+    opacity: 0;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+}
+
 .wcrlo-animater {
     opacity: 0;
 }
 
+.wcrlo-animated {
+    opacity: 1;
+}
+
+
+/*wcrlo-section*/
+.wcrlo-section {
+    padding: 6em 0;
+    position: relative;
+}
+@media (max-width: 767.98px) {
+    .wcrlo-section {
+        padding: 5em 0;
+    }
+}
+
+.wcrlo-section p {
+    color: #929191;
+    font-size: 15px;
+}
+
+.wcrlo-section .icon i[class*="flaticon-"]::before {
+    font-size: 3em;
+    color: #f86f2d;
+}
+
+.wcrlo-section p .btn {
+    color: #f86f2d;
+    box-shadow: 0px 0px 4px #007bff;
+}
+
+.wcrlo-section p .btn:hover {
+    color: #ffffff;
+    background-color: #007bff;
+    box-shadow: 0px 0px 4px #929191;
+}
 
 /*Loader*/
 #wcrlo-loader {

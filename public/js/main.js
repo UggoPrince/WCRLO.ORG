@@ -1,19 +1,20 @@
-/*AOS.init({
+AOS.init({
     duration: 800,
     easing: 'slide'
-});*/
-
-$(window).on('load', function() {
-
-	var $nav = $(".header-section");
-	$nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
 });
+
+var changeHeaderColor = () => {
+    var $nav = $(".header-section");
+	$nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+};
+
+$(window).on('scroll', changeHeaderColor);
 
 (function($) {
 
    "use strict"
 
-
+    changeHeaderColor();
 
    var fullHeight = function() {
 
@@ -208,7 +209,7 @@ setBg.forEach((setBgElem) => {
     setBgElem.style.backgroundImage = `url(${bg})`;
 });
 
-const elements = document.getElementsByClassName('wcrlo-animate');
+const elements = document.getElementsByClassName('wcrlo-animate2');
 	for (let i = 0; i < elements.length; i++) {
 		new Waypoint({
 			element: elements[i],
