@@ -6,7 +6,7 @@
    <section class="wcrlo-section">
       <div class="container">
          <div class="row">
-         <div class="col-md-4 d-flex align-self-stretch wcrlo-animate2">
+         <div class="col-lg-4 d-flex align-self-stretch wcrlo-animate2">
            <div class="media block-6 d-flex services p-3 py-4 d-block">
              <div class="icon d-flex mb-3"><i class="flaticon-donation-1"></i></div>
              <div class="media-body pl-4">
@@ -16,7 +16,7 @@
              </div>
            </div>      
          </div>
-         <div class="col-md-4 d-flex align-self-stretch wcrlo-animate2">
+         <div class="col-lg-4 d-flex align-self-stretch wcrlo-animate2">
            <div class="media block-6 d-flex services p-3 py-4 d-block">
              <div class="icon d-flex mb-3"><i class="flaticon-charity"></i></div>
              <div class="media-body pl-4">
@@ -26,7 +26,7 @@
              </div>
            </div>      
          </div>
-         <div class="col-md-4 d-flex align-self-stretch wcrlo-animate2">
+         <div class="col-lg-4 d-flex align-self-stretch wcrlo-animate2">
            <div class="media block-6 d-flex services p-3 py-4 d-block">
              <div class="icon d-flex mb-3"><i class="flaticon-donation"></i></div>
              <div class="media-body pl-4">
