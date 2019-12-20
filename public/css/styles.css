@@ -1,9 +1,6 @@
 body {
     font-family: "Overpass", Arial, sans-serif;
-    font-size: 16px;
 }
-
-html {font-size: 110%;}
 
 p {font-size: 120%; line-height: 1.2;}
 
@@ -46,76 +43,6 @@ h1, h2, h3, h4, h5,
     margin-top: 30px;
     font-size: 40px;
     cursor: pointer;
-}
-
-@media only screen and (min-width: 993px) {
-    html {font-size: 90%;}
-    .site-navigation {
-        width: auto !important;
-        background: transparent;
-        box-shadow: 0px 0px 0px transparent;
-    }
-
-    .site-navigation .nav-close {
-        display: none;
-    }
-
-    .toggle-button {
-        display: none;
-    }
-
-    .hero-wrap {
-        min-height: 90vh
-    }
-}
-
-@media only screen and (max-width: 992px) {
-    #toggle-button {font-size: 40px;}
-
-    .site-navigation {
-        height: 100%;
-        width: 0;
-        max-width: 600px;
-        position: fixed;
-        z-index: 10;
-        top: 0;
-        right: 0;
-        background: #fff;
-        font-size: 57px;
-        box-shadow: 1px 0px 5px #333;
-    }
-
-    .site-navigation ul {
-        margin: 0 !important;
-        padding: 0;
-    }
-
-    .site-navigation ul li {
-        width: 100%;
-        display: block;
-        padding-left: 30px;
-        list-style: none !important;
-        box-sizing: border-box;
-    }
-
-    .site-navigation ul li:hover {
-        background: #eee;
-    }
-
-    .site-navigation ul li a {
-        text-align: left;
-        width: 100%;
-        box-sizing: border-box;
-    }
-
-    .toggle-button {
-        display: inline-block;
-        color: #353535;
-    }
-
-    .hero-wrap {
-        height: 60vh;
-    }
 }
 
 .header-section {
@@ -247,16 +174,11 @@ h1, h2, h3, h4, h5,
 .wcrlo-section {
     padding: 6em 0;
     position: relative;
-}
-@media (max-width: 767.98px) {
-    .wcrlo-section {
-        padding: 5em 0;
-    }
+    font-size: 200%;
 }
 
 .wcrlo-section p {
     color: #929191;
-    font-size: 15px;
 }
 
 .wcrlo-section .icon i[class*="flaticon-"]::before {
@@ -274,6 +196,19 @@ h1, h2, h3, h4, h5,
     background-color: #007bff;
     box-shadow: 0px 0px 4px #929191;
 }
+
+
+/*@media only screen and (max-width: 992px) and (min-width: 768px){
+    
+}
+
+@media only screen and (max-width: 767px) and (min-width: 480px){
+    
+}
+
+@media only screen and (max-width: 479.98px) {
+    
+}*/
 
 /*Loader*/
 #wcrlo-loader {
@@ -372,3 +307,95 @@ h1, h2, h3, h4, h5,
         stroke-dasharray: 89, 200;
         stroke-dashoffset: -136px; }
     }
+
+@media only screen and (max-width: 991.98px) {
+    #toggle-button {font-size: 40px;}
+
+    .site-navigation {
+        height: 100%;
+        width: 0;
+        max-width: 600px;
+        position: fixed;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        background: #fff;
+        font-size: 57px;
+        box-shadow: 1px 0px 5px #333;
+    }
+
+    .site-navigation ul {
+        margin: 0 !important;
+        padding: 0;
+    }
+
+    .site-navigation ul li {
+        width: 100%;
+        display: block;
+        padding-left: 30px;
+        list-style: none !important;
+        box-sizing: border-box;
+    }
+
+    .site-navigation ul li:hover {
+        background: #eee;
+    }
+
+    .site-navigation ul li a {
+        text-align: left;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .toggle-button {
+        display: inline-block;
+        color: #353535;
+    }
+
+    .hero-wrap {
+        height: 60vh;
+    }
+
+    .wcrlo-section {
+        padding: 5em 0;
+    }
+}
+    
+@media only screen and (max-width: 767px) {
+    
+}
+    
+@media (min-width: 576px) {
+    .wcrlo-section {
+        font-size: 100%;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {}
+    
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    html {font-size: 90%;}
+    .site-navigation {
+        width: auto !important;
+        background: transparent;
+        box-shadow: 0px 0px 0px transparent;
+    }
+
+    .site-navigation .nav-close {
+        display: none;
+    }
+
+    .toggle-button {
+        display: none;
+    }
+
+    .hero-wrap {
+        min-height: 90vh
+    }
+}
+    
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
+    

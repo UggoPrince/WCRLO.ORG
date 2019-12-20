@@ -1,7 +1,7 @@
 <!-- Header section  -->
 <header class="header-section">
   <nav class="navbar navbar-expand-lg text-center">
-    <div class="container">
+    <div class="container-fluid">
       <a class="navbar-brand" href="/">WCRLO</a>
 
       <button class="navbar-toggler toggle-button bg-primary" id="toggle-button">
