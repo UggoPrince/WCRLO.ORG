@@ -3,7 +3,7 @@
 @section('content')
    @include('components.bannerCarousel')
 
-   <section class="wcrlo-section">
+   <section class="wcrlo-section wcrlo-section-2">
       <div class="container-fluid">
          <div class="row">
             <div class="col-md-4 wcrlo-animate2 text-center">
@@ -46,4 +46,7 @@
        </div>
       </div>
    </section>
+
+   @include('components.objective_action_point')
+
 @endsection

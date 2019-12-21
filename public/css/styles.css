@@ -1,5 +1,7 @@
 body {
     font-family: "Overpass", Arial, sans-serif;
+    width: 100%;
+    display: block;
 }
 
 p {font-size: 120%; line-height: 1.2;}
@@ -22,16 +24,45 @@ h1, h2, h3, h4, h5,
     position: relative;
     transition: ease 0.5s;
     display: block;
+    height: 100%;
+    width: 0;
+    max-width: 600px;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    background: #fff;
+    font-size: 18px;
+    box-shadow: 1px 0px 5px #333;
 }
 
 .site-navigation ul li {
-    list-style: none;
     box-sizing: border-box;
     display: inline-block !important;
+    width: 100%;
+    display: block;
+    padding-left: 30px;
+    list-style: none !important;
+    border-bottom: 1px solid #eee;
+}
+
+.site-navigation ul li:hover {
+    background: #eee;
 }
 
 .site-navigation ul li a:hover {
     color: #f86f2d;
+}
+
+.site-navigation ul li a {
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.toggle-button {
+    display: inline-block;
+    color: #353535;
 }
 
 .site-navigation .nav-close {
@@ -50,7 +81,7 @@ h1, h2, h3, h4, h5,
   width: 100%;
   padding: 7px 0px;
   background-color: rgb(255, 255, 255, 0.7);
-  z-index: 2;
+  z-index: 20;
   top: 0;
   left: 0;
   display: block;
@@ -66,6 +97,7 @@ h1, h2, h3, h4, h5,
 
 .hero-wrap {
   width: 100%;
+  height: 60vh;
   position: relative;
 }
 
@@ -87,7 +119,13 @@ h1, h2, h3, h4, h5,
 .hero-wrap {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
+}
+
+.set-bg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .slider-text {
@@ -122,16 +160,16 @@ h1, h2, h3, h4, h5,
 }
 
 .slider-text .breadcrumbs {
-      text-transform: uppercase;
-      font-size: 13px;
-      letter-spacing: 1px;
-      margin-bottom: 20px;
-      z-index: 99;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    z-index: 99;
 }
 
 .slider-text .breadcrumbs span {
-        border-bottom: 2px solid rgba(255, 255, 255, 0.1);
-        color: rgba(255, 255, 255, 0.7);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.7);
 }
 .slider-text .breadcrumbs span a {
     color: #fff;
@@ -172,8 +210,6 @@ h1, h2, h3, h4, h5,
 
 /*wcrlo-section*/
 .wcrlo-section {
-    padding: 6em 0;
-    position: relative;
     font-size: 150%;
 }
 
@@ -197,6 +233,26 @@ h1, h2, h3, h4, h5,
     box-shadow: 0px 0px 4px #929191;
 }
 
+.wcrlo-section-1 {
+    padding: 10px 0;
+}
+
+.wcrlo-section-2 {
+    font-size: 100%;
+    padding: 3em 0;
+    display: block;
+}
+
+.wcrlo-card img {
+    width: 100%;
+    overflow-y: hidden;
+}
+
+.wcrlo-card h5 {
+    font-size: 80%;
+    color: #929191;
+    text-align: center;
+}
 
 /*@media only screen and (max-width: 992px) and (min-width: 768px){
     
@@ -208,6 +264,34 @@ h1, h2, h3, h4, h5,
 
 @media only screen and (max-width: 479.98px) {
     
+}*/
+
+/*semi transparent backgrounds*/
+.opaqueBg {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  background-attachment: fixed;
+}
+
+.opaqueBg::after {
+  content: "";
+  background-size: cover;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: -2;
+}
+
+.opaqueBg-1::after {
+  background: rgb(255, 255, 255, 0.95);
+}
+
+/*.opaqueBg-1 {
+    background-color: rgb(255, 255, 255, 0.7);
 }*/
 
 /*Loader*/
@@ -311,53 +395,9 @@ h1, h2, h3, h4, h5,
 @media only screen and (max-width: 991.98px) {
     #toggle-button {font-size: 40px;}
 
-    .site-navigation {
-        height: 100%;
-        width: 0;
-        max-width: 600px;
-        position: fixed;
-        z-index: 10;
-        top: 0;
-        right: 0;
-        background: #fff;
-        font-size: 57px;
-        box-shadow: 1px 0px 5px #333;
-    }
-
     .site-navigation ul {
         margin: 0 !important;
         padding: 0;
-    }
-
-    .site-navigation ul li {
-        width: 100%;
-        display: block;
-        padding-left: 30px;
-        list-style: none !important;
-        box-sizing: border-box;
-    }
-
-    .site-navigation ul li:hover {
-        background: #eee;
-    }
-
-    .site-navigation ul li a {
-        text-align: left;
-        width: 100%;
-        box-sizing: border-box;
-    }
-
-    .toggle-button {
-        display: inline-block;
-        color: #353535;
-    }
-
-    .hero-wrap {
-        height: 60vh;
-    }
-
-    .wcrlo-section {
-        padding: 5em 0;
     }
 }
     
@@ -376,11 +416,32 @@ h1, h2, h3, h4, h5,
     
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
+    
     html {font-size: 90%;}
     .site-navigation {
         width: auto !important;
         background: transparent;
         box-shadow: 0px 0px 0px transparent;
+        font-size: 100%;
+        position: relative;
+        z-index: 0;
+    }
+
+    .site-navigation ul li {
+        width: auto;
+        display: inline-block;
+        padding-left: 0;
+        list-style: none;
+        border-bottom: 0px;
+    }
+
+    .site-navigation ul li:hover {
+        background: transparent;
+    }
+
+    .site-navigation ul li a {
+        text-align: center;
+        width: auto;
     }
 
     .site-navigation .nav-close {
@@ -392,7 +453,19 @@ h1, h2, h3, h4, h5,
     }
 
     .hero-wrap {
-        min-height: 90vh
+        min-height: 100vh
+    }
+
+    .wcrlo-section-1 {
+        padding: 6em 0;
+    }
+
+    .wcrlo-section-2 {
+        padding: 6em 0;
+    }
+
+    .wcrlo-card h5 {
+        font-size: 110%;
     }
 }
     
