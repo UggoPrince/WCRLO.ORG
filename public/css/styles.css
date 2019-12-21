@@ -403,6 +403,12 @@ h1, h2, h3, h4, h5,
 @media only screen and (max-width: 767px) {
     
 }
+
+@media (max-width: 576px) {
+    .opaqueBg-1::after {
+        background: rgb(255, 255, 255, 0.95);
+    }
+}
     
 @media (min-width: 576px) {
     .wcrlo-section {
@@ -415,7 +421,11 @@ h1, h2, h3, h4, h5,
 }
 
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    .wcrlo-section {
+        font-size: 100%;
+    }
+}
     
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
