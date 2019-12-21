@@ -218,7 +218,7 @@ const elements = document.getElementsByClassName('wcrlo-animate2');
 					setTimeout(() => {
 						this.element.classList.add('fadeInUp');
 						this.element.classList.add('wcrlo-animated');
-					}, (i * 70));
+					}, (i * 40));
 				}
 			},
 			offset: '100%'
