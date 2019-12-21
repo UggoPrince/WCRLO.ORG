@@ -406,7 +406,7 @@ h1, h2, h3, h4, h5,
 
 @media (max-width: 576px) {
     .opaqueBg-1::after {
-        background: rgb(255, 255, 255, 0.95);
+        background: rgb(255, 255, 255, 0.94);
     }
 }
     
