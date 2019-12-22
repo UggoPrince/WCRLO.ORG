@@ -5,7 +5,7 @@ AOS.init({
 
 var changeHeaderColor = () => {
     var $nav = $(".header-section");
-	$nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+	$nav.toggleClass('scrolled', ($(this).scrollTop() > $nav.height() || $(this).scrollTop() > 0));
 };
 
 $(window).on('scroll', changeHeaderColor);
