@@ -1,4 +1,4 @@
-<div class="wcrlo-section-5" id="team-section">
+<div class="wcrlo-section-5 set-bg opaqueBg opaqueBg-4" id="team-section" data-setbg="images/bg_4.jpg">
     <div class="container">
       <div class="row mb-5 justify-content-center">
         <div class="col-md-7 text-center">
@@ -8,7 +8,7 @@
       </div>
       <div class="row">
         <div class="col-lg-4 col-md-6 mb-4 mb-lg-0" data-aos="fade-up">
-          <div class="block-team-member-1 text-center rounded">
+          <div class="block-team-member-1 text-center rounded bg-white">
             <figure>
               <img src="images/person_1.jpg" alt="Image" class="img-fluid rounded-circle">
             </figure>
@@ -24,7 +24,7 @@
         </div>
 
         <div class="col-lg-4 col-md-6 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
-          <div class="block-team-member-1 text-center rounded">
+          <div class="block-team-member-1 text-center rounded bg-white">
             <figure>
               <img src="images/person_2.jpg" alt="Image" class="img-fluid rounded-circle">
             </figure>
@@ -40,7 +40,7 @@
         </div>
 
         <div class="col-lg-4 col-md-6 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
-          <div class="block-team-member-1 text-center rounded">
+          <div class="block-team-member-1 text-center rounded bg-white">
             <figure>
               <img src="images/person_3.jpg" alt="Image" class="img-fluid rounded-circle">
             </figure>
