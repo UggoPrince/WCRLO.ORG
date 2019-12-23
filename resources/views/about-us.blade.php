@@ -26,4 +26,5 @@
     @include('components.about_who_we_are')
     @include('components.about_mission')
     @include('components.about_core_values')
+    @include('components.about_leadership')
 @endsection
