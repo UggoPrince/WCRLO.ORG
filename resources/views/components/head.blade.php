@@ -7,6 +7,9 @@
 <link rel="stylesheet" href="vendors/owlcarousel/assets/owl.theme.default.min.css"/>
 <link rel="stylesheet" href="vendors/aos/aos.css">
 
+
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+
 <link rel="stylesheet" href="vendors/fonts/icomoon/style.css">
 <link rel="stylesheet" href="vendors/fonts/ionicons/css/ionicons.min.css">
 <link rel="stylesheet" href="vendors/fonts/open-iconic/css/open-iconic-bootstrap.min.css">

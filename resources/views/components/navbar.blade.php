@@ -20,7 +20,7 @@
           </li>
           <li class="nav-item @yield('active_support')">
             <a href="/support" class="nav-link w-auto d-inline-flex">Support</a>
-            <span class="icon-arrow_drop_down font-size-20 c-pointer align-text-top h-100"></span>
+            <i class="fa fa-caret-down font-size-20 c-pointer mr-1 h-100"></i>
           </li>
           <li class="nav-item"><a href="/child-rights" class="nav-link">Child Rights</a></li>
           <li class="nav-item"><a href="/women-rights" class="nav-link">Women Rights</a></li>
