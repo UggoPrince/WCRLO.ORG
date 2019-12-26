@@ -1,17 +1,15 @@
 <section class="wcrlo-section-3">
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
             <div class="col text-center">
                 <h3 class=" mb-5 wcrlo-animate2">WHO WE ARE</h3>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6 wcrlo-animate2">
-                <div class="set-bg align-self-stretch img img-about" data-setbg="images/bg_3.jpg">
-
-                </div>
+            <div class="col-md-12 wcrlo-animate2">
+                    <p class=" text-center"><img src="images/bg_3.jpg" class="img-fluid" /></p>
             </div>
-            <div class="col-md-6 wcrlo-animate2 text-justify">
+            <div class="col-md-12 wcrlo-animate2 text-justify">
                 <p>
                     Women for Civil Rights& Liberties Organization is  Nigeria-based charity 
                     that work with vulnerable abused women and traumatised children, 
