@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5,
 
 .hero-content {
     display: block;
-    min-height: calc(100vh - 62px);
+    min-height: calc(100vh - 69px);
 }
 
 .set-bg {

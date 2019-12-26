@@ -19,8 +19,8 @@
             <a href="/about" class="nav-link">About</a>
           </li>
           <li class="nav-item @yield('active_support')">
-            <a href="/support" class="nav-link w-auto d-inline-flex">Support</a>
-            <i class="fa fa-caret-down font-size-20 c-pointer mr-1 h-100"></i>
+            <a href="/support" class="nav-link align-top w-auto d-inline-flex">Support</a>
+            <i class="fa fa-caret-down font-size-20 align-top c-pointer mr-1 h-100"></i>
           </li>
           <li class="nav-item"><a href="/child-rights" class="nav-link">Child Rights</a></li>
           <li class="nav-item"><a href="/women-rights" class="nav-link">Women Rights</a></li>
