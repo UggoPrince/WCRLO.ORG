@@ -2,8 +2,8 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <h3 class="col mb-5 text-center wcrlo-animate2">WCRLO Core Values</h3>
-                <p class=" wcrlo-animate2">
+                <h3 class="col mb-5 text-center wcrlo-animate2 text-primary">WCRLO Core Values</h3>
+                <p class="wcrlo-animate2 text-secondary">
                     WCRLO  is an independent, impartial, non-governmental and not-for-profit organization. 
                     All Board and staff of WCRLO are committed to the highest standards of humanitarism, 
                     accountability and transparency values.

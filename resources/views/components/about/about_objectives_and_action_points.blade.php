@@ -75,7 +75,7 @@
                <img class="circle d-block img-150 m-auto" src="images/person_2.jpg" alt="Card image cap">
                <div class="d-block align-top mt-2 pt-4 m-auto">
                   <h5 class="card-title">
-                     Women/Children Health care.
+                     Women/Children Healthcare.
                   </h5>
                </div>
             </div>

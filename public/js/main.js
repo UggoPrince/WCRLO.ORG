@@ -83,67 +83,6 @@ $(window).on('scroll', changeHeaderColor);
    };
 
 
-   var contentWayPoint = function() {
-       var i = 0;
-       $('.wcrlo-animate').waypoint( function( direction ) {
-
-           if( direction === 'down' && !$(this.element).hasClass('wcrlo-animated') ) {
-               i++;
-
-               $(this.element).addClass('item-animate');
-               setTimeout(function(){
-
-                   $('.wcrlo-animate.item-animate').each(function(k){
-                       var el = $(this);
-                       setTimeout( function () {
-                        console.log('yes');
-                           var effect = el.data('animate-effect');
-                           if ( effect === 'fadeIn') {
-                               el.addClass('fadeIn wcrlo-animated');
-                           } else if ( effect === 'fadeInLeft') {
-                               el.addClass('fadeInLeft wcrlo-animated');
-                           } else if ( effect === 'fadeInRight') {
-                               el.addClass('fadeInRight wcrlo-animated');
-                           } else {
-                               el.addClass('fadeInUp wcrlo-animated');
-                           }
-                           el.removeClass('item-animate');
-                       },  k * 50, 'easeInOutExpo' );
-                   });
-                   
-               }, 100);
-               
-           }
-
-       } , { offset: '95%' } );
-   };
-   //contentWayPoint();
-
-
-   // navigation
-   var OnePageNav = function() {
-       $(".smoothscroll[href^='#'], #ftco-nav ul li a[href^='#']").on('click', function(e) {
-            e.preventDefault();
-
-            var hash = this.hash,
-                    navToggler = $('.navbar-toggler');
-            $('html, body').animate({
-           scrollTop: $(hash).offset().top
-         }, 700, 'easeInOutExpo', function(){
-           window.location.hash = hash;
-         });
-
-
-         if ( navToggler.is(':visible') ) {
-             navToggler.click();
-         }
-       });
-       $('body').on('activate.bs.scrollspy', function () {
-         console.log('nice');
-       })
-   };
-   //OnePageNav();
-
 
    function doAnimations(elems) {
     //Cache the animationend event in a variable
@@ -218,7 +157,7 @@ const elements = document.getElementsByClassName('wcrlo-animate2');
 					setTimeout(() => {
 						this.element.classList.add('fadeInUp');
 						this.element.classList.add('wcrlo-animated');
-					}, (i * 40));
+					}, (i * 70));
 				}
 			},
 			offset: '100%'

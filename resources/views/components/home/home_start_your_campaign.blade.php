@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 text-center wcrlo-animate2">
-                <h3 class=" mb-5">START YOUR CAMPAIGN</h3>
+                <h3 class="mb-5 text-primary">START YOUR CAMPAIGN</h3>
             </div>
             <div class="col-12 wcrlo-animate2">
                 <p>

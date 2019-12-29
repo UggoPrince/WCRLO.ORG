@@ -22,3 +22,15 @@ Route::get('/about', function () {
 Route::get('/support', function () {
     return view('support');
 });
+
+Route::get('/child-rights', function () {
+    return view('child_rights');
+});
+
+Route::get('/women-rights', function () {
+    return view('women_rights');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});

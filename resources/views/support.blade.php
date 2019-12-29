@@ -6,7 +6,6 @@
 @endsection
 
 @section('content')
-    <div id="donate" style="margin-bottom:500px;"></div>
-    <div id="volunteer" style="margin-bottom:500px;"></div>
-    <div id="fund-raiser" style="margin-bottom:500px;"></div>
+    @include('components.support.support_hero_section')
+    @include('components.support.support_how_you_can_help')
 @endsection

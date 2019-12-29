@@ -1,7 +1,7 @@
 <div class="wcrlo-section-5 set-bg opaqueBg opaqueBg-4" id="team-section" data-setbg="images/bg_4.jpg">
     <div class="container">
       <div class="row mb-5 justify-content-center">
-        <div class="col-md-7 text-center">
+        <div class="col-md-7 text-center" data-aos="fade-up">
             <h2 class="text-black text-uppercase">Our Leadership</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut corporis, eius, eos consectetur consequuntur sit. Aut, perspiciatis, reprehenderit.</p>
         </div>
