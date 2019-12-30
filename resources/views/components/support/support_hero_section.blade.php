@@ -35,8 +35,8 @@
                         <div class="col text-center mt-15">
                             <h1 class="text-white t-shadow-black-2 mb-4">Become A Volunteer</h1>
                             <p>
-                                <a href="#volunteer" 
-                                class="btn px-5 py-2 mt-4 btn-orange font-size-18 text-white b-shadow-white-2">
+                                <a data-anchorbtn="volunteer"
+                                class="anchor-btn btn px-5 py-2 mt-4 btn-orange font-size-18 text-white b-shadow-white-2">
                                    Volunteer
                                 </a>
                             </p>
@@ -55,8 +55,8 @@
                         <div class="col text-center mt-15">
                             <h1 class="text-white t-shadow-black-2 mb-4">Fundraiser</h1>
                             <p>
-                                <a href="#fundraiser" 
-                                class="btn px-5 py-2 mt-4 btn-orange font-size-18 text-white b-shadow-white-2">
+                                <a data-anchorbtn="fundraiser"
+                                class="anchor-btn btn px-5 py-2 mt-4 btn-orange font-size-18 text-white b-shadow-white-2">
                                    Start Now
                                 </a>
                             </p>
@@ -75,8 +75,8 @@
                         <div class="col text-center mt-15">
                             <h1 class="text-white t-shadow-black-2">Crowdfunding</h1>
                             <p>
-                                <a href="#crowdfunding" 
-                                class="btn px-5 py-2 mt-4 btn-orange text-white b-shadow-white-2">
+                                <a data-anchorbtn="crowdfunding"
+                                class="anchor-btn btn px-5 py-2 mt-4 btn-orange font-size-18 text-white b-shadow-white-2">
                                    Start Now
                                 </a>
                             </p>

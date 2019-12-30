@@ -13,7 +13,8 @@
               <div class="row no-gutters slider-text align-items-center justify-content-center">
                 <div class="col wcrlo-animate text-center" data-animation="animated fadeIn">
                   <h3>Women For Civil Rights and Liberties Org</h3>
-                    <a class="arrow-container b-radius-5 bg-semi-white mt-5 d-inline-block pl-3 pr-3 font-size-40">
+                    <a id="home-down-arrow" class="arrow-container b-radius-5 bg-semi-white mt-5 d-inline-block 
+                    pl-3 pr-3 font-size-40">
                       <div class="myArrowBounceAnim">
                         <i class="icon-angle-down text-site-orange"></i>
                       </div>

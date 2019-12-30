@@ -144,23 +144,64 @@ navClose.addEventListener('click', () => {
 
 const setBg = document.querySelectorAll('.set-bg');
 setBg.forEach((setBgElem) => {
-    const bg = setBgElem.dataset.setbg
+    const bg = setBgElem.dataset.setbg;
     setBgElem.style.backgroundImage = `url(${bg})`;
 });
 
 const elements = document.getElementsByClassName('wcrlo-animate2');
-	for (let i = 0; i < elements.length; i++) {
-		new Waypoint({
-			element: elements[i],
-			handler: function(direction) {
-				if (direction === 'down' && !elements[i].classList.contains('wcrlo-animated')) {
-					setTimeout(() => {
-						this.element.classList.add('fadeInUp');
-						this.element.classList.add('wcrlo-animated');
-					}, (i * 70));
-				}
-			},
-			offset: '100%'
-		});
-	}
+for (let i = 0; i < elements.length; i++) {
+    new Waypoint({
+        element: elements[i],
+        handler: function(direction) {
+            if (direction === 'down' && !elements[i].classList.contains('wcrlo-animated')) {
+                setTimeout(() => {
+                    this.element.classList.add('fadeInUp');
+                    this.element.classList.add('wcrlo-animated');
+                }, (i * 70));
+            }
+        },
+        offset: '100%'
+    });
+}
 
+const pagePath = window.location.pathname;
+
+const init_home_down_arrow = () => {
+    const home_down_arrow = document.getElementById('home-down-arrow');
+    const introBlock = document.getElementById('intro-block');
+    home_down_arrow.addEventListener('click', () => {
+        introBlock.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start',
+            inline: 'start'
+        });
+    });
+};
+
+const init_support_anchor_btns = () => {
+    const anchorBtn = document.querySelectorAll('.anchor-btn');
+    anchorBtn.forEach((elem) => {
+        const id = elem.dataset.anchorbtn;
+        const id_Elem = document.getElementById(id);
+        elem.addEventListener('click', () => {
+            id_Elem.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start',
+                inline: 'start'
+            });
+        });
+    });
+};
+
+switch (pagePath) {
+    case '/':
+        init_home_down_arrow();
+        break;
+    
+    case '/support':
+        init_support_anchor_btns();
+        break;
+
+    default:
+        break;
+}

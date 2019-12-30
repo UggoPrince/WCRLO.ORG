@@ -86,7 +86,7 @@
                     condition of their family or other reasons back to school.
                 </p>
             </div>
-            <div class="col-12 wcrlo-animate2">
+            <div class="col-12">
                 <h5 class=" text-primary mt-4">CHILD'S RIGHTS AGAINST ABUSES:</h5>
                 <p>
                     Child abuse or child maltreatment are categorised into:

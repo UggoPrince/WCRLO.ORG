@@ -1,4 +1,4 @@
-<section class="wcrlo-section-home">
+<section class="wcrlo-section-home" id="intro-block">
     <div class="container">
         <div class="row">
             <div class="col text-center wcrlo-animate2">

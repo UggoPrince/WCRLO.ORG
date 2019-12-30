@@ -1,7 +1,8 @@
+<span id="fundraiser"></span>
 <section class="wcrlo-section-support">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 wcrlo-animate2" id="#fundraiser">
+            <div class="col-md-6 wcrlo-animate2">
                 <h3 class="text-center text-primary">
                     Become a Fundraiser
                 </h3>
@@ -14,7 +15,7 @@
                     birthday fundraiser etc.These days, social media can be leveraged efficiently to make noise.
                 </p>
             </div>
-            <div class="col-md-6 wcrlo-animate2" id="#crowdfunding">
+            <div class="col-md-6 wcrlo-animate2" id="crowdfunding">
                 <h3 class="text-center text-primary">
                     Crowdfunding
                 </h3>
@@ -23,8 +24,8 @@
                     money from large number of people, typically via the Internet.
                 </p>
             </div>
-            <div class="col-md-12" id="#volunteer">
-                <h3 class="text-center text-primary wcrlo-animate2">
+            <div class="col-md-12" id="volunteer">
+                <h3 class="text-center text-primary wcrlo-animate2 mt-5">
                     Volunteering
                 </h3>
                 <div class="wcrlo-animate2">
@@ -75,6 +76,12 @@
                         Apart from your donation, you can also give your time and efforts to the cause. 
                         For example, you can teach children at our learning centre or take up an instructor 
                         job with us.
+                    </p>
+                    <p class="text-center">
+                        <a href="{!! url('http://www.dnf.org.ng') !!}" 
+                        class="btn px-5 py-2 mt-4 btn-orange font-size-18 text-white b-shadow-white-2">
+                            Register
+                        </a>
                     </p>
                 </div>
             </div>

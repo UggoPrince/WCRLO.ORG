@@ -1,7 +1,7 @@
 <section class="wcrlo-section-child-rights">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 wcrlo-animate2">
+            <div class="col-md-12">
                 <h3 class="text-center">
                     WOMEN'S RIGHTS IN NIGERIA
                 </h3>
