@@ -11,7 +11,7 @@
 
       <div class="site-navigation"  id="site-navigation">
         <div class="nav-close text-center" id="nav-close"><span>&times;</span></div>
-        <ul class="navbar-nav nav ml-auto">
+        <ul class="navbar-nav nav ml-auto h-auto">
           <li class="nav-item @yield('active_home')">
             <a href="/" class="nav-link">Home</a>
           </li>
@@ -19,7 +19,19 @@
             <a href="/about" class="nav-link">About</a>
           </li>
           <li class="nav-item align-content @yield('active_support')">
-            <a href="/support" class="nav-link align-top w-auto d-inline-flex">Support</a>
+            <a href="/support" class="nav-link d-inline-block drop-down-link">Support</a>
+            <span class="drop-arrow text-dark d-inline-block"></span>
+            <ul class="nav-dropdown dis-none ml-0">
+              <li>
+                <a href="#fundraiser">Fundraiser</a>
+              </li>
+              <li>
+                <a href="#crowdfunding">Crowdfunding</a>
+              </li>
+              <li>
+                <a href="#volunteer">Volunteer</a>
+              </li>
+            </ul>
           </li>
           <li class="nav-item @yield('active_child_rights')">
             <a href="/child-rights" class="nav-link">Child Rights</a>

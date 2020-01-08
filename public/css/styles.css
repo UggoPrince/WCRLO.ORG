@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5,
     display: inline-block !important;
     width: 100%;
     display: block;
-    padding-left: 20px;
+    padding-left: 10px;
     list-style: none !important;
     border-bottom: 1px solid #eee;
 }
@@ -57,6 +57,47 @@ h1, h2, h3, h4, h5,
 
 .site-navigation ul li a:hover {
     color: #f86f2d;
+}
+
+/* Dropdown list binds to JS toggle event */
+.nav-dropdown {
+    position: static;
+  z-index: 10;
+  margin: 0;
+  padding: 0;
+  padding-left: 0px;
+  background-color: white;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+}
+
+.nav-dropdown ul li {
+    min-width: 190px;
+    border-bottom: 1px solid #eee;
+}
+
+.nav-dropdown ul li a {
+    padding: 15px;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.nav-dropdown li:hover {
+    background: #eee;
+}
+
+/*.site-navigation ul li a:not(:only-child):after*/ 
+.drop-arrow::after {
+    color: black;
+    content: ' ▾';
+    cursor: pointer;
+}
+
+.dis-none {
+    display: none;
+}
+
+.dis-block {
+    display: block;
 }
 
 .toggle-button {
@@ -975,6 +1016,29 @@ h1, h2, h3, h4, h5,
         font-weight: 500;
         width: auto;
         padding: 0;
+    }
+
+    .site-navigation .nav-dropdown {
+        position: absolute;
+        padding: 0;
+        background: white;
+    }
+
+    .nav-dropdown {
+        border-radius: 0px 0px 6px 6px;
+    }
+
+    .site-navigation .nav-dropdown li {
+        box-sizing: border-box;
+        padding: 4px;
+        display: block !important;
+        /*padding-left: 10px;
+        list-style: none !important;
+        border-bottom: 1px solid #eee;*/
+    }
+
+    .site-navigation .nav-dropdown li a {
+        text-decoration: none;
     }
 
     .site-navigation .nav-close {

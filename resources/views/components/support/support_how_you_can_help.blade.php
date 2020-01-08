@@ -54,30 +54,32 @@
                         those in need can Contact us through wcrlong@gmail.com.
                     </p>
                 </div>
-                <div class="wcrlo-animate2">
-                    <p>
-                        WCRLO has plenty of available volunteer opportunities for youth (ages 18-25) 
-                        that engage young people in child rights activism, neighbourhood development 
-                        nd education. The professionals who want to offer their services to the 
-                        vulnerable women & children like healthcare workers,doctors, project managers, 
-                        analytics experts,inspirational speakers etc.
-                    </p>
-                    <p>
-                        If you are a humanitarian or activist and you would like to know if your 
-                        skills could be valuable for this organisation, feel free to contact us too.
-                    </p>
-                    <p>
-                        We will also like to partner with any youth-led organisations and individuals 
-                        who are committed to instilling the culture of women rights and gender 
-                        equality in Nigeria through activism, advocacy and mobilisation of responsible 
-                        citizens and young people.
-                    </p>
-                    <p>
-                        Apart from your donation, you can also give your time and efforts to the cause. 
-                        For example, you can teach children at our learning centre or take up an instructor 
-                        job with us.
-                    </p>
-                    <p class="text-center">
+                <div>
+                    <div class="wcrlo-animate2">
+                        <p>
+                            WCRLO has plenty of available volunteer opportunities for youth (ages 18-25) 
+                            that engage young people in child rights activism, neighbourhood development 
+                            nd education. The professionals who want to offer their services to the 
+                            vulnerable women & children like healthcare workers,doctors, project managers, 
+                            analytics experts,inspirational speakers etc.
+                        </p>
+                        <p>
+                            If you are a humanitarian or activist and you would like to know if your 
+                            skills could be valuable for this organisation, feel free to contact us too.
+                        </p>
+                        <p>
+                            We will also like to partner with any youth-led organisations and individuals 
+                            who are committed to instilling the culture of women rights and gender 
+                            equality in Nigeria through activism, advocacy and mobilisation of responsible 
+                            citizens and young people.
+                        </p>
+                        <p>
+                            Apart from your donation, you can also give your time and efforts to the cause. 
+                            For example, you can teach children at our learning centre or take up an instructor 
+                            job with us.
+                        </p>
+                    </div>
+                    <p class="text-center wcrlo-animate2">
                         <a href="{!! url('http://www.dnf.org.ng') !!}" 
                         class="btn px-5 py-2 mt-4 btn-orange font-size-18 text-white b-shadow-white-2">
                             Register

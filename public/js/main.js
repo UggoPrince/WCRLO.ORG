@@ -116,7 +116,18 @@ $(window).on('scroll', changeHeaderColor);
         "[data-animation ^= 'animated']"
       );
       doAnimations($animatingElems);
-  })
+  });
+
+    // If a link has a dropdown, add sub menu toggle.
+    $('.drop-arrow').click(function(e) {
+        $('.dis-none').toggle();
+    });
+
+    /*$('.drop-down-link').hover(function(e) {
+        $('.nav-dropdown').addClass('dis-block');
+    }, () => {
+        $('.nav-dropdown').removeClass('dis-block');
+    });*/
 
 })(jQuery);
 let navIsOpen = false;
@@ -125,7 +136,7 @@ const openNav = (nav) => {
         nav.style.width = 0+'%';
         navIsOpen = false;
     } else {
-        nav.style.width = 45+'%';
+        nav.style.width = 44+'%';
         navIsOpen = true;
     }
 };
